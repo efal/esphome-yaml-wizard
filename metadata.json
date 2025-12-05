@@ -1,0 +1,5 @@
+{
+  "name": "ESPHome YAML Wizard",
+  "description": "An AI-powered YAML generator for ESPHome devices, supporting ESP8266, ESP32, and Beken (LibreTiny) chips for Home Assistant integration.",
+  "requestFramePermissions": []
+}

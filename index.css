@@ -1,0 +1,48 @@
+/* ESPHome YAML Wizard - Global Styles */
+
+/* Base styles are handled by Tailwind CDN */
+/* This file exists to prevent 404 errors and can be extended with custom styles */
+
+/* Custom scrollbar for code editor feel */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1a1b26;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #414868;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #565f89;
+}
+
+/* Smooth transitions for interactive elements */
+input, select, textarea, button {
+  transition: all 0.2s ease;
+}
+
+/* Focus ring styles */
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(136, 192, 208, 0.3);
+}
+
+/* Animation for loading states */
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
